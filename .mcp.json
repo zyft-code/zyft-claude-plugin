@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "zyft": {
+      "type": "http",
+      "url": "https://mcp.zyft.com/mcp"
+    }
+  }
+}
