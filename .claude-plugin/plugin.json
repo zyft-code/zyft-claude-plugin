@@ -9,6 +9,7 @@
   },
   "homepage": "https://zyft.com",
   "repository": "https://github.com/zyft-code/zyft-claude-plugin",
+  "license": "MIT",
   "keywords": [
     "shopping",
     "deals",
