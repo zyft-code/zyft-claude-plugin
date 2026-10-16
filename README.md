@@ -21,13 +21,11 @@ Zyft compares prices across Australian retailers. Ask Claude where something is 
 | `get_price_history` | Price history, all-time low and average for a product |
 | `get_deals` | Current deals, each checked against the last 90 days of prices |
 | `show_product_picker`, `show_deals`, `open_zyft_panel` | Show products and deals in an interactive view |
-| `checkout_search`, `create_cart`, `update_cart`, `create_checkout`, `set_delivery_details`, `select_shipping`, `complete_checkout` | Buy from a partner store that Zyft can check out at |
 
 ## Data the plugin sends
 
-- **Searches and product questions** go to Zyft's server at `mcp.zyft.com`: the search terms and product IDs Claude passes to each tool. Zyft logs tool calls to run and improve the service.
-- **Checkout**, only when you ask to buy: your name, email, phone number and delivery address go through Zyft's server to the store you are buying from. Card details you give for `complete_checkout` pass through Zyft's server to the store's payment provider to be tokenised; Zyft doesn't store them. Claude asks you to confirm the order total before placing the order.
-- Zyft fetches product, price and stock data from retailers on its own servers. The plugin doesn't contact retailers from your machine.
+- **Searches and product questions** go to Zyft's server at `mcp.zyft.com`: the search terms and product IDs Claude passes to each tool. Zyft logs each tool call (the tool, its arguments and its result) to run and improve the service. You don't need a Zyft account, and the plugin sends no name, email or other account details.
+- Zyft fetches product, price and stock data from retailers on its own servers. The plugin doesn't contact retailers from your machine, and nothing is bought on your behalf.
 
 See Zyft's [privacy policy](https://zyft.com/privacy-policy) and [terms](https://zyft.com/terms-conditions).
 
