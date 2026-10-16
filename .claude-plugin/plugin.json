@@ -18,6 +18,7 @@
     "australia"
   ],
   "icon": "./assets/logo.png",
+  "documentationUrl": "https://github.com/zyft-code/zyft-claude-plugin#readme",
   "supportUrl": "https://help.zyft.com",
   "privacyPolicyUrl": "https://zyft.com/privacy-policy",
   "termsOfServiceUrl": "https://zyft.com/terms-conditions"
